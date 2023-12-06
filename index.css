@@ -1,0 +1,120 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.362);
+}
+h1 {
+    margin: auto;
+    border-radius: 5px;
+    width: 50%;
+    border: 3px solid rgb(132, 255, 0);
+    box-shadow: 5px 5px 10px red;
+    padding: 10px;
+   
+}
+
+h2{
+
+    margin: auto;
+    border-radius: 5px;
+    width: 50%;
+    height: 220px;
+    border: 3px solid rgb(132, 255, 0);
+    box-shadow: 5px 5px 10px rgb(255, 213, 213);
+    padding: 10px;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.image-grid Img {
+    width: 120%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Img1{
+   margin-left: 35%;
+   margin-top: 260px;
+
+   filter: saturate(8);
+}
+.Img1 :hover{
+    transform: scaleX(-1);
+}
+.Img2{
+    margin-left: 60%;
+    margin-top: 60%;
+    filter: hue-rotate(90deg);
+ }
+ .Img2 :hover{
+    transform: scaleX(-1);
+}
+ .Img3{
+    margin-left: 80%;
+    margin-top: 60px;
+    filter: invert(100%);
+ }
+ .Img3 :hover{
+    transform: scaleX(-1);
+}
+ 
+ .Img4{
+    margin-left: 75%;
+    margin-top: 30px;
+    filter: hue-rotate(90deg);
+ 
+ }
+ .Img4 :hover{
+    transform: scaleX(-1);
+}
+ .Img5{
+    margin-left: 80%;
+    margin-top: 60px;
+
+    filter: invert(100%);
+ 
+ }
+ .Img5 :hover{
+    transform: scaleX(-1);
+}
+ .Img6{
+    margin-left: 70%;
+    margin-top: 260px;
+    filter: saturate(8);
+   
+ 
+ }
+ .Img6 :hover{
+    transform: scaleX(-1);
+}
+
+#dropdown-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid plum;
+    padding: 10px;
+}
+
+/* .phenomenon-info {
+    max-width: 400px;
+    text-align: left;
+}
+
+.phenomenon-image {
+    max-width: 400px;
+}
+
+#play-button {
+    margin-top: 10px;
+    cursor: pointer;
+} */
+
